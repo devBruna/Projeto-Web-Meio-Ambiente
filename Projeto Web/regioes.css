@@ -1,0 +1,110 @@
+#body1 {
+	position: relative;
+	width: 100%;
+	background: #1c4928;
+	background-image: url(https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&w=1000&q=80);
+}
+
+header {
+	padding: 20px 0;
+}
+
+.caixa {
+
+	width: 940px;
+	margin: 0 auto;
+}
+
+#navegacao {
+
+	display: inline;
+	flex-direction: row;
+
+}
+
+nav {
+	position:relative;
+	justify-content: flex-end;
+	top: 110px;
+	right: 0;
+	
+}
+
+nav li {
+
+	margin: 0 10px 0 10px;
+	flex-direction: row;
+	display: inline;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-desmatado {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+footer {
+	text-align: center;
+
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
