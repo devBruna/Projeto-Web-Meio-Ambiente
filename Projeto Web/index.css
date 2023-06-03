@@ -1,0 +1,197 @@
+#banner {
+	width: 100% ;
+	position: relative;
+}
+
+
+
+#body1 {
+	position: relative;
+	width: 100%;
+	background: #1c4928;
+	background-image: url(https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&w=1000&q=80);
+	display: grid;
+ 	grid-gap: 1rem;
+  	grid-template-areas:
+   			 "header header header"
+			 "nav nav nav"
+   			 "main main main"
+    		 "footer footer footer"
+}
+
+.o-header{
+ grid-area: header;
+ font-size: 30px;
+ color: #aff187;
+ border: 2px;
+ width: 100%;
+ background: #143b2985;
+ padding-top: 20px;
+ margin-left: -8px;
+ display: inline;
+ align-items: center;
+}
+
+.o-nav {
+	grid-area: nav;
+}
+
+.o-main{
+	grid-area: main;
+}
+
+.o-footer{
+	grid-area: footer;
+}
+
+.header__caixa {
+	padding-left: 8%;
+	padding-top: 20px;
+	column-gap: 50px;
+	display: inline-flex;
+	margin: auto;
+}
+
+.header__titulo {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.header__navegacao{
+	display: flex;
+	flex-direction:column;
+	column-gap: 50px;
+	width: 100%;
+}
+
+
+nav li {
+	padding-left: 15%;
+	padding-right: 12%;
+	flex-direction: row;
+	display: inline-grid;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+#li1{
+	background: #2b1edb;
+	padding: 1.1% 13.2% ;
+	border-radius: 8px;
+}
+#li1:hover{
+	background: #0b0d782e;
+}
+
+#li2{
+	background: #39d346;
+	padding: 1.1% 13.2% ;
+	border-radius: 8px;
+}
+
+#li2:hover{
+	background: #0b0d782e;
+}
+
+#li3{
+	background:#f9e804;
+	padding: 1.1% 13.2% ;
+	border-radius: 8px;
+}
+
+#li3:hover{
+	background:#0b0d782e;
+}
+
+.principal{
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #281772;
+}
+
+.itens {
+	font-style: italic
+}
+
+
+
+
+
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-desmatado {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+footer {
+	text-align: center;
+
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
