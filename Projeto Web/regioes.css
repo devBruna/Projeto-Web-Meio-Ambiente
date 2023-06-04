@@ -26,13 +26,6 @@
  align-items: center;
 }
 
-.o-nav {
-	grid-area: nav;
-}
-
-.o-main{
-	grid-area: main;
-}
 
 .o-footer{
 	grid-area: footer;
@@ -103,60 +96,80 @@ nav a {
 	background:#0b0d782e;
 }
 
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
+.informacao {
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 15%;
+
 }
 
-.produtos li {
+.informacao li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
-	margin: 0 1.5%;
+	margin: 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 5px solid #0f5006;
+	background: #eff5a433;
 	border-radius: 10px;
 }
 
-.produtos li:hover {
+.informacao li:hover {
 	border-color: #C78C19;
 }
 
-.produtos li:active {
+.informacao li:active {
 	border-color: #088C19;	
 }
 
-.produtos li:hover h2 {
+.informacao li:hover h2 {
 	font-size: 34px;
 }
 
-.produtos h2 {
+.informacao h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.produto-descricao {
-	font-size: 18px;
+.informacao-descricao {
+	font-size: 25px;
 }
 
-.produto-desmatado {
-	font-size: 22px;
+.informacao-desmatado {
+	font-size: 25px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
+.o-main{
+	grid-area: main;
+	margin: 3% 0 30% 0;
+	background: #39d346;
+}
+
+.o-form{
+	position: absolute;
+	background: #2b1edb;
+	width: 100%;
+	grid-area: main;
+	margin: 3% 0 30% 0;
+}
+
 
 footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	align-items: center;
+	align-self: flex-end;
 	text-align: center;
-
-	padding: 40px 0;
 }
 
 .copyright {
+	text-align: center;
 	color: #FFFFFF;
 	font-size: 13px;
-	margin: 20px 0 0;
+
 }
