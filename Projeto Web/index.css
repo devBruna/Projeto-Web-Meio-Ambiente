@@ -38,10 +38,15 @@
 
 .o-main{
 	grid-area: main;
+	margin: 3% 0 10% 0;
 }
 
 .o-footer{
+	position: absolute;
 	grid-area: footer;
+bottom: 0;
+width: 100%;
+	
 }
 
 .header__caixa {
@@ -135,9 +140,17 @@ em strong {
 
 
 footer {
-
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	align-items: center;
+	align-self: flex-end;
+	text-align: center;
 }
 
 .copyright {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 13px;
 
 }
