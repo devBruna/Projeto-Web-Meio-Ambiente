@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Contato - MDesAmb - Brasil</title>
 
-		<link rel="stylesheet" href="regioes.css">
-	</head>
-	<body id="body1">
+<head>
+	<meta charset="UTF-8">
+	<title>Contato - MDesAmb - Brasil</title>
 
-		<header class="o-header">
-			<div class="header__caixa">
-				<img src="logo.png" style="border-radius: 90%; width: 15%;">
-				<h1 class="header__titulo">Mapa do Desmatamento Ambiental do Brasil</h1>
-			</div>
-			<div class="header__navegacao">
-				<nav>
-					<ul id="navegacao">
-						<li id="li1"><a href="index.html">Home</a></li>
-						<li id="li2"><a href="regioes.html">Regiões</a></li>
-						<li id="li3"><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
+	<link rel="stylesheet" href="regioes.css">
+</head>
 
-			</div>
-			
-		</header>
-		<main class="o-form">
-			<div id="area">
+<body id="body1">
 
-				<table id="horario">
-					<thead>
-						<tr>
-							<th>Dia</th>
-							<th>Horário</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Segunda</td>
-							<td>8h ~ 20h</td>
-						</tr>
-						<tr>
-							<td>Quarta</td>
-							<td>8h ~ 20h</td>
-						</tr>
-						<tr>
-							<td>Sexta</td>
-							<td>8h ~ 20h</td>
-						</tr>
-					</tbody>
-	
-				</table>
+	<header class="o-header">
+		<div class="header__caixa">
+			<img src="logo.png" style="border-radius: 90%; width: 15%;">
+			<h1 class="header__titulo">Mapa do Desmatamento Ambiental do Brasil</h1>
+		</div>
+		<div class="header__navegacao">
+			<nav>
+				<ul id="navegacao">
+					<a href="index.html">
+						<li id="li1">Home</li>
+					</a>
+					<a href="regioes.html">
+						<li id="li2">Regiões</li>
+					</a>
+					<a href="contato.html">
+						<li id="li3">Contato</li>
+					</a>
+				</ul>
+			</nav>
 
-				<form id="formulario" autocomplete="off">
-				  <fieldset>
+		</div>
+
+	</header>
+	<main class="o-form">
+		<div id="area">
+
+			<table id="horario">
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
+
+			</table>
+
+			<form id="formulario" autocomplete="off">
+				<fieldset>
 					<legend>Formulário</legend>
 					<label>Nome:</label><input class="campo_nome" type="text"><br>
 					<label>Email:</label><input class="campo_email" type="password"><br>
 					<label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
 					<input class="btn_submit" type="submit" value="Enviar">
-				  </fieldset>
-			 
+				</fieldset>
+
 
 				<fieldset>
 					<legend>Como prefere o nosso contato?</legend>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-					
+
 					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
-					
+
 					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
 				</fieldset>
 
@@ -81,12 +89,13 @@
 		</div>
 
 
-			
-		</main>
 
-		<footer>
-			<img src="logo.png" style="border-radius: 100%; width: 10%;">
-			<p class="copyright">&copy; Copyright MDesAmb - Brasil 2023</p>
-		</footer>
-	</body>
+	</main>
+
+	<footer>
+		<img src="logo.png" style="border-radius: 100%; width: 10%;">
+		<p class="copyright">&copy; Copyright MDesAmb - Brasil 2023</p>
+	</footer>
+</body>
+
 </html>
