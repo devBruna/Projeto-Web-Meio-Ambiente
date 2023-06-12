@@ -25,19 +25,42 @@
 			</div>
 			
 		</header>
-		<main class="o-main">
-			<form class="o-form">
-				<label for="nomesobrenome">Nome e sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao" required>
+		<main class="o-form">
+			<div id="area">
 
-				<label for="email">Email</label>
-				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+				<table id="horario">
+					<thead>
+						<tr>
+							<th>Dia</th>
+							<th>Horário</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						<tr>
+							<td>Quarta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						<tr>
+							<td>Sexta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+					</tbody>
+	
+				</table>
 
-				<label for="telefone">Telefone</label>
-				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-
-				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+				<form id="formulario" autocomplete="off">
+				  <fieldset>
+					<legend>Formulário</legend>
+					<label>Nome:</label><input class="campo_nome" type="text"><br>
+					<label>Email:</label><input class="campo_email" type="password"><br>
+					<label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+					<input class="btn_submit" type="submit" value="Enviar">
+				  </fieldset>
+			 
 
 				<fieldset>
 					<legend>Como prefere o nosso contato?</legend>
@@ -54,28 +77,11 @@
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 
-			<table>
-				<thead>
-					<tr>
-						<th>Dia</th>
-						<th>Horário</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Segunda</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Quarta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Sexta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-				</tbody>
 			</table>
+		</div>
+
+
+			
 		</main>
 
 		<footer>

@@ -144,19 +144,23 @@ nav a {
 	margin-top: 10px;
 }
 
-.o-main{
-	position: relative;
-	grid-area: main;
-	margin: 3% 0 30% 0;
-	background: #39d346;
-}
-
 .o-form{
-	position: absolute;
-	background: #2b1edb;
+	grid-area: main;
+	position: flex;
+	background: #1e68dba8;
 	width: 100%;
 	grid-area: main;
 	margin: 3% 0 30% 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+#horario {
+	
 }
 
 
