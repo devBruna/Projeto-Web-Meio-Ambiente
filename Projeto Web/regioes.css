@@ -147,8 +147,7 @@ nav a {
 .o-form{
 	grid-area: main;
 	position: flex;
-	background: white;
-	opacity: 1;
+	background: #1e68dba8;
 	width: 100%;
 	grid-area: main;
 	margin: 3% 0 30% 0;
@@ -158,11 +157,6 @@ nav a {
 	text-align: center;
 	justify-content: center;
 	font-size: 30px;
-}
-
-fieldset{
-	color: black;
-	opacity: 1;
 }
 
 #horario {
