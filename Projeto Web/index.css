@@ -1,5 +1,5 @@
 #banner {
-	width: 100% ;
+	width: 98% ;
 	position: relative;
 }
 
@@ -133,7 +133,8 @@ nav a {
 }
 
 p {
-	text-align: center;
+	text-align: justify;
+	font-size: 18px;
 }
 
 #missao {
@@ -148,6 +149,20 @@ em strong {
 	font-style: italic
 }
 
+.textoHome1 {
+	display: grid;
+}
+
+.imagemSpan {
+	display: grid;
+	grid-column:  span 4;
+	
+	align-items: center;
+}
+
+.textoSpan {
+	grid-column: 8 /span 8;
+}
 
 footer {
 	position: absolute;

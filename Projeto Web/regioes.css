@@ -5,7 +5,7 @@
 	background: #1c4928;
 	background-image: url(https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&w=1000&q=80);
 	display: grid;
- 	grid-gap: 1rem;
+
   	grid-template-areas:
    			 "header"
 			 "nav"
@@ -147,20 +147,23 @@ nav a {
 .o-form{
 	grid-area: main;
 	position: flex;
-	background: #1e68dba8;
-	width: 100%;
+	width: 99%;
 	grid-area: main;
-	margin: 3% 0 30% 0;
+	margin: 0 0 10% 0;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
 	font-size: 30px;
+	padding-bottom: 3%;
+	background: linear-gradient(180deg, rgba(3,48,6,0.6615021008403361) 0%, rgba(32,121,31,0.5214460784313726) 35%, rgba(91,170,67,0.5690651260504201) 100%);
+	
 }
 
 #horario {
-	
+	display: inline;
+	align-items: center;
 }
 
 
