@@ -1,6 +1,7 @@
 #banner {
 	width: 98% ;
 	position: relative;
+	display: flex;
 }
 
 
@@ -12,6 +13,7 @@
 	background-image: url(https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&w=1000&q=80);
 	display: grid;
  	grid-gap: 1rem;
+	overflow-x: hidden;
   	grid-template-areas:
    			 "header header header"
 			 "nav nav nav"
@@ -34,6 +36,7 @@
 
 .o-nav {
 	grid-area: nav;
+	display: inline;
 }
 
 .o-main{
@@ -55,17 +58,18 @@
 }
 
 .header__caixa {
-	padding-left: 6%;
+	padding-left: 5%;
 	padding-top: 20px;
 	column-gap: 50px;
 	display: inline-flex;
 	margin: auto;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 .header__titulo {
 	padding-top: 10px;
 	padding-left: 20px;
+	display: inline;
 }
 
 .header__navegacao{
@@ -94,7 +98,7 @@ nav a {
 
 #li1{
 	background: #0057d6;
-	padding: 1.1% 13.2% ;
+	padding: 1.1% 14% ;
 	border-radius: 8px;
 }
 #li1:hover{
@@ -103,7 +107,7 @@ nav a {
 
 #li2{
 	background: #00bc8a;
-	padding: 1.1% 13.2% ;
+	padding: 1.1% 14% ;
 	border-radius: 8px;
 }
 
@@ -134,7 +138,7 @@ nav a {
 
 p {
 	text-align: justify;
-	font-size: 18px;
+	font-size: 21px;
 }
 
 #missao {
@@ -155,13 +159,15 @@ em strong {
 
 .imagemSpan {
 	display: grid;
-	grid-column:  span 4;
-	
+	grid-column:  5 /span 5;
 	align-items: center;
+	justify-items: center;
+	position: relative;
+	left: -30px;
 }
 
 .textoSpan {
-	grid-column: 8 /span 8;
+	grid-column: 10 /span 10;
 }
 
 footer {
